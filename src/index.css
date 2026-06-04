@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 .HeaderShop {
   display: flex;
@@ -854,8 +855,6 @@ dialog.aboutProduct::backdrop {
 }
 
 
-/* --- СТИЛІ ДЛЯ СТОРІНКИ КОШИКА (CartPage) --- */
-
 .cart-page-container {
     max-width: 1000px;
     margin: 40px auto;
@@ -933,7 +932,6 @@ dialog.aboutProduct::backdrop {
     color: #64748b;
 }
 
-/* Елемент кошика */
 .cart-item-row {
     display: flex;
     align-items: center;
@@ -1044,7 +1042,6 @@ dialog.aboutProduct::backdrop {
     width: auto;
 }
 
-/* Картки замовлень */
 .order-card {
     border: 1px solid #e2e8f0;
     padding: 20px;
