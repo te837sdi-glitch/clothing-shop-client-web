@@ -791,7 +791,7 @@ dialog.aboutProduct::backdrop {
     background-color: #fce8e9;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
   .products {
     grid-template-columns: repeat(3, 1fr);
   }
