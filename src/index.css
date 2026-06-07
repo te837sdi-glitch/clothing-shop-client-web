@@ -854,6 +854,10 @@ dialog.aboutProduct::backdrop {
   .modal-image-wrapper {
     max-width: 100%;
   }
+
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 @media (max-width: 480px) {
   .searchBtn {
@@ -864,10 +868,6 @@ dialog.aboutProduct::backdrop {
   .searchLine {
     font-size: 14px;
     padding: 10px;
-  }
-
-  .products {
-    grid-template-columns: repeat(1, 1fr);
   }
 }
 
