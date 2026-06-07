@@ -9,7 +9,7 @@ function ContentShop({ authorized, searchData }) {
   const [products, setProducts] = useState(null);
   const [totalPages, setTotalPages] = useState(1);
   const [currentPage, setCurrentPage] = useState(1);
-  const limit = 8; 
+  const limit = 30; 
 
   const [selectedCategory, setSelectedCategory] = useState('allProducts');
   const [minPrice, setMinPrice] = useState(0);
