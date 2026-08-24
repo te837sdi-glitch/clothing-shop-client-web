@@ -686,4 +686,5 @@ function ContentShop({ authorized, searchData }) {
   );
 }
 
+
 export default ContentShop;

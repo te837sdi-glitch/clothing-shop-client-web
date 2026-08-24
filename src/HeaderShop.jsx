@@ -432,4 +432,5 @@ function HeaderShop({ authorized, setSearchData, setAuthorized, setUser, user })
         </div>
     )
 }
+
 export default HeaderShop
